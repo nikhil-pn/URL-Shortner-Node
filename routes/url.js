@@ -5,7 +5,7 @@ const Url = require("../models/userModels");
 const router= express.Router()
 // const {nanoid} = require('nanoid')  ;
 
-const baseUrl = "https://Day-6.nikhilpn1.repl.co/urlapi"
+const baseUrl = "https://url-shortner-sh3s.onrender.com"
 
 createDb.sync().then(()=>{
   console.log("Db is Running")
