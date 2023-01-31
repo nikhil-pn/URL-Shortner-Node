@@ -1,6 +1,6 @@
 const express = require("express")
 const createDb = require("../config/db")
-const Url = require("../models/urlModels");
+const Url = require("../models/userModels");
 
 const router= express.Router()
 // const {nanoid} = require('nanoid')  ;

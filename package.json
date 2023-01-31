@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/nikhil-pn/URL-Shortner-Node#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nanoid": "^4.0.0",
+    "routes": "^2.1.0",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
   }
 }
