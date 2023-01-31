@@ -1,0 +1,18 @@
+/* body {
+ background-image: url("black.jpg");
+  object-fit : "contain"
+}
+ */
+ .tiledBackground {
+    background-image: url("black.jpg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+  
+  /*   object-fit: cover; */
+  
+  }
+  
+  h1{
+    color: white
+  /*   font-color : "white" */
+  }
