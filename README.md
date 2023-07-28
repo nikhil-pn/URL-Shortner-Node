@@ -1,6 +1,7 @@
 <div align="center">
 
-  <img src="https://github.com/nikhil-pn/URL-Shortner-Node/blob/main/public/images/url.png" alt="logo" width="200" height="auto" />
+  <img src="https://github.com/nikhil-pn/URL-Shortner-Node/blob/main/public/images/Screenshot%20(740).png" alt="logo" width="200" height="auto" />
+
   
 # Url Shortner Build With Node, Express.js, Sqlite, Uuid!
   
@@ -56,7 +57,7 @@
 ### :camera: Screenshots
 
 <div align="center" display='flex'>
-<img width='400rem'  src='https://github.com/nikhil-pn/URL-Shortner-Node/blob/main/public/images/cloudshare-screenshot.png' alt='image'/>
+<img width='400rem'  src='https://github.com/nikhil-pn/URL-Shortner-Node/blob/main/public/images/url.png' alt='image'/>
 </div>
 
 
