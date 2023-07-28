@@ -3,16 +3,128 @@
   object-fit : "contain"
 }
  */
- .tiledBackground {
-    background-image: url("black.jpg");
-    background-size: cover;
-    background-repeat: no-repeat, repeat;
-  
-  /*   object-fit: cover; */
-  
-  }
-  
-  h1{
-    color: white
-  /*   font-color : "white" */
-  }
+.tiledBackground {
+  background-image: url("background.webp");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+
+}
+
+/* CSS code to style the h1 tag */
+h1.page-title {
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500; /* Semi-bold */
+  font-style: italic;
+  letter-spacing: 1px; /* Adjust letter spacing for a modern look */
+  /* text-transform: uppercase; Optional: You can use uppercase text for a modern feel */
+  color: #333; /* Optional: Set a desired text color */
+}
+
+.input-container {
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  height: 40px;
+  border: 2px solid #0b2447;
+  border-top: none;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  box-shadow: 7px 7px 0px 0px #0b2447;
+  transition: all 0.5s;
+}
+
+.input:focus {
+  box-shadow: none;
+  transition: all 0.5s;
+}
+
+.label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #0b2447;
+  transition: all 0.5s;
+  transform: scale(0);
+  z-index: -1;
+}
+
+.input-container .topline {
+  position: absolute;
+  content: "";
+  background-color: #0b2447;
+  width: 0%;
+  height: 2px;
+  right: 0;
+  top: 0;
+  transition: all 0.5s;
+}
+
+.input-container input[type="text"]:focus ~ .topline {
+  width: 35%;
+  transition: all 0.5s;
+}
+
+.input-container .underline {
+  position: absolute;
+  content: "";
+  background-color: #0b2447;
+  width: 0%;
+  height: 2px;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+.input-container input[type="text"]:focus ~ .underline {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.input-container input[type="text"]:focus ~ .label {
+  top: -10px;
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+/* button */
+button {
+  margin-top: 20px;
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+}
+
+button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+button span:not(hover) {
+  transition: all 1s;
+}
